@@ -54,14 +54,18 @@ body {
     color: aliceblue;
 }
 
+.input-box {
+    position: relative;
+} 
+
 .input-box i {
     position: absolute;
-    right: 60px;
+    right: 30px;
     top: 50%;
-    transform: translateY(-40%);
+    transform: translateY(-50%);
     font-size: 20px;
+    color: white;
 }
-
 .wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
